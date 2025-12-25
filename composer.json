@@ -8,6 +8,7 @@
     "symfony/http-kernel": "^3.2|^4.0|^4.1|^5.0|^6.0",
     "symfony/config": "^3.2|^4.0|^4.1|^5.0|^6.0",
     "symfony/dependency-injection": "^3.2|^4.0|^4.1|^5.0|^6.0",
+    "nategood/httpful": "^1.0",
     "genesis-global/salesforce": "^1.1.9"
   },
   "require-dev": {
