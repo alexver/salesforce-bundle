@@ -19,7 +19,7 @@ class SalesforceServiceTest extends \PHPUnit\Framework\TestCase
 
     protected $builder;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->client = $this->createMock(SalesforceClientInterface::class);
         $this->parser = $this->createMock(ContentParserInterface::class);
